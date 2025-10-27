@@ -1,0 +1,24 @@
+.container {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
